@@ -1,40 +1,64 @@
-# Welcome to Remix!
+# Recipe Explorer (Remix + Tailwind)
 
-- 📖 [Remix docs](https://remix.run/docs)
+A modern, accessible recipe browsing app built with Remix and Tailwind, themed with "Ocean Professional".
 
-## Development
+## Features
 
-Run the dev server:
+- Home, Recipes list, and Recipe detail routes
+- URL‑driven search, filters, sort, and pagination
+- Accessible UI (keyboard and screen readers)
+- Ocean Professional theme (blue & amber accents)
+- Local mock data fallback with optional remote API
 
-```shellscript
+## Getting Started
+
+Install dependencies and run the dev server:
+
+```bash
+npm install
 npm run dev
 ```
 
-## Deployment
+Open the app at the printed URL (default http://localhost:3000).
 
-First, build your app for production:
+## Data Modes
 
-```sh
-npm run build
+The app supports two data modes:
+
+1. Local mock data (default)
+   - No configuration required.
+   - Data is served from `public/recipes.json`.
+
+2. Remote API
+   - Provide an environment variable `VITE_API_BASE` that points to your API base URL.
+   - The app will try `GET {VITE_API_BASE}/recipes` and `GET {VITE_API_BASE}/recipes/:id`.
+   - If the remote request fails, the app gracefully falls back to local mock data.
+
+Example `.env`:
+
+```
+VITE_API_BASE=https://api.example.com
 ```
 
-Then run the app in production mode:
+Note: Do not commit secrets. The orchestrator will set environment variables for you in CI/deployment.
 
-```sh
-npm start
-```
+## Routes
 
-Now you'll need to pick a host to deploy it to.
+- `/` — Home
+- `/recipes` — List with search, filters, sort, pagination via URL params (`q, category, minRating, maxTime, sort, page, pageSize, tag`)
+- `/recipes/:id` — Recipe detail
 
-### DIY
+## Accessibility
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+- Focus-visible styles
+- Proper aria roles/labels
+- Keyboard accessible modals and controls
+- Live regions for loading updates
 
 ## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+Tailwind is pre-configured. Ocean Professional theme colors are applied via utility classes and small design tokens in `app/lib/theme.ts`.
+
+## License
+
+MIT

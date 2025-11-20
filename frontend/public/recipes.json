@@ -1,0 +1,388 @@
+[
+  {
+    "id": "1",
+    "title": "Classic Pancakes",
+    "description": "Fluffy pancakes perfect for a cozy breakfast.",
+    "category": "Breakfast",
+    "image": "https://picsum.photos/seed/pancakes/800/600",
+    "rating": 4.6,
+    "reviews": 123,
+    "timeMinutes": 20,
+    "difficulty": "Easy",
+    "servings": 4,
+    "ingredients": [
+      { "name": "All-purpose flour", "quantity": "1 1/2 cups" },
+      { "name": "Milk", "quantity": "1 1/4 cups" },
+      { "name": "Eggs", "quantity": "2" },
+      { "name": "Baking powder", "quantity": "2 tsp" },
+      { "name": "Sugar", "quantity": "2 tbsp" },
+      { "name": "Butter", "quantity": "2 tbsp, melted" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Whisk dry ingredients together." },
+      { "step": 2, "text": "Add milk, eggs, and melted butter; whisk until smooth." },
+      { "step": 3, "text": "Cook on a greased skillet until bubbles form; flip and finish." }
+    ],
+    "tags": ["breakfast", "quick", "kids"],
+    "author": "Chef A",
+    "createdAt": "2024-04-01T09:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Avocado Toast",
+    "description": "Creamy avocado on toasted sourdough with chili flakes.",
+    "category": "Breakfast",
+    "image": "https://picsum.photos/seed/avotoast/800/600",
+    "rating": 4.2,
+    "reviews": 88,
+    "timeMinutes": 10,
+    "difficulty": "Easy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Sourdough bread", "quantity": "2 slices" },
+      { "name": "Avocado", "quantity": "1" },
+      { "name": "Lemon", "quantity": "1/2" },
+      { "name": "Chili flakes", "quantity": "pinch" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Toast the bread to your liking." },
+      { "step": 2, "text": "Mash avocado with lemon, salt, and pepper." },
+      { "step": 3, "text": "Spread on toast and sprinkle chili flakes." }
+    ],
+    "tags": ["vegan", "quick", "brunch"],
+    "author": "Chef B",
+    "createdAt": "2024-03-14T09:00:00Z"
+  },
+  {
+    "id": "3",
+    "title": "Chicken Caesar Salad",
+    "description": "Crisp romaine with grilled chicken and creamy dressing.",
+    "category": "Lunch",
+    "image": "https://picsum.photos/seed/caesar/800/600",
+    "rating": 4.7,
+    "reviews": 201,
+    "timeMinutes": 25,
+    "difficulty": "Easy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Romaine lettuce", "quantity": "1 head" },
+      { "name": "Grilled chicken breast", "quantity": "1" },
+      { "name": "Parmesan", "quantity": "1/4 cup, shaved" },
+      { "name": "Croutons", "quantity": "1/2 cup" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Chop romaine and slice chicken." },
+      { "step": 2, "text": "Toss with dressing, parmesan, and croutons." }
+    ],
+    "tags": ["salad", "protein"],
+    "author": "Chef C",
+    "createdAt": "2024-02-10T09:00:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Tomato Basil Soup",
+    "description": "Comforting soup with ripe tomatoes and fresh basil.",
+    "category": "Lunch",
+    "image": "https://picsum.photos/seed/tomatosoup/800/600",
+    "rating": 4.4,
+    "reviews": 67,
+    "timeMinutes": 35,
+    "difficulty": "Easy",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Tomatoes", "quantity": "6" },
+      { "name": "Onion", "quantity": "1" },
+      { "name": "Garlic", "quantity": "3 cloves" },
+      { "name": "Vegetable stock", "quantity": "3 cups" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Sauté onion and garlic until soft." },
+      { "step": 2, "text": "Add tomatoes and stock; simmer and blend." }
+    ],
+    "tags": ["vegetarian", "soup"],
+    "author": "Chef D",
+    "createdAt": "2024-02-01T09:00:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Grilled Salmon with Lemon",
+    "description": "Perfectly grilled salmon with a zesty lemon butter.",
+    "category": "Dinner",
+    "image": "https://picsum.photos/seed/salmon/800/600",
+    "rating": 4.8,
+    "reviews": 310,
+    "timeMinutes": 30,
+    "difficulty": "Medium",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Salmon fillets", "quantity": "2" },
+      { "name": "Lemon", "quantity": "1" },
+      { "name": "Butter", "quantity": "2 tbsp" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Season salmon and grill skin-side down." },
+      { "step": 2, "text": "Finish with lemon butter sauce." }
+    ],
+    "tags": ["seafood", "healthy"],
+    "author": "Chef E",
+    "createdAt": "2024-01-25T09:00:00Z"
+  },
+  {
+    "id": "6",
+    "title": "Spaghetti Bolognese",
+    "description": "Rich, slow-simmered meat sauce over spaghetti.",
+    "category": "Dinner",
+    "image": "https://picsum.photos/seed/bolognese/800/600",
+    "rating": 4.5,
+    "reviews": 198,
+    "timeMinutes": 60,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Ground beef", "quantity": "1 lb" },
+      { "name": "Tomato sauce", "quantity": "2 cups" },
+      { "name": "Onion", "quantity": "1" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Brown beef with onion and garlic." },
+      { "step": 2, "text": "Add tomato sauce; simmer until rich." }
+    ],
+    "tags": ["pasta", "comfort"],
+    "author": "Chef F",
+    "createdAt": "2024-01-15T09:00:00Z"
+  },
+  {
+    "id": "7",
+    "title": "Chocolate Brownies",
+    "description": "Fudgy brownies with a shiny crackle top.",
+    "category": "Dessert",
+    "image": "https://picsum.photos/seed/brownies/800/600",
+    "rating": 4.9,
+    "reviews": 420,
+    "timeMinutes": 45,
+    "difficulty": "Easy",
+    "servings": 12,
+    "ingredients": [
+      { "name": "Dark chocolate", "quantity": "200 g" },
+      { "name": "Butter", "quantity": "150 g" },
+      { "name": "Sugar", "quantity": "1 cup" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Melt chocolate and butter." },
+      { "step": 2, "text": "Whisk with sugar, eggs, flour; bake." }
+    ],
+    "tags": ["baking", "sweet"],
+    "author": "Chef G",
+    "createdAt": "2023-12-20T09:00:00Z"
+  },
+  {
+    "id": "8",
+    "title": "Fruit Parfait",
+    "description": "Layers of yogurt, granola, and fresh fruit.",
+    "category": "Dessert",
+    "image": "https://picsum.photos/seed/parfait/800/600",
+    "rating": 4.1,
+    "reviews": 60,
+    "timeMinutes": 10,
+    "difficulty": "Easy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Yogurt", "quantity": "1 cup" },
+      { "name": "Granola", "quantity": "1/2 cup" },
+      { "name": "Mixed fruit", "quantity": "1 cup" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Layer yogurt, granola, and fruit in a glass." }
+    ],
+    "tags": ["healthy", "quick"],
+    "author": "Chef H",
+    "createdAt": "2023-12-10T09:00:00Z"
+  },
+  {
+    "id": "9",
+    "title": "Hummus & Veggie Snack Plate",
+    "description": "Creamy hummus with crunchy veggies.",
+    "category": "Snack",
+    "image": "https://picsum.photos/seed/hummus/800/600",
+    "rating": 4.3,
+    "reviews": 75,
+    "timeMinutes": 15,
+    "difficulty": "Easy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Hummus", "quantity": "1 cup" },
+      { "name": "Carrots", "quantity": "2" },
+      { "name": "Cucumbers", "quantity": "1" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Slice veggies and serve with hummus." }
+    ],
+    "tags": ["vegan", "snack"],
+    "author": "Chef I",
+    "createdAt": "2023-11-20T09:00:00Z"
+  },
+  {
+    "id": "10",
+    "title": "Iced Coffee",
+    "description": "Refreshing cold coffee with milk and ice.",
+    "category": "Beverage",
+    "image": "https://picsum.photos/seed/icedcoffee/800/600",
+    "rating": 4.0,
+    "reviews": 50,
+    "timeMinutes": 5,
+    "difficulty": "Easy",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Brewed coffee", "quantity": "1 cup" },
+      { "name": "Milk", "quantity": "1/4 cup" },
+      { "name": "Ice", "quantity": "1 cup" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Fill glass with ice, add coffee and milk." }
+    ],
+    "tags": ["drink", "cafe"],
+    "author": "Chef J",
+    "createdAt": "2023-11-10T09:00:00Z"
+  },
+  {
+    "id": "11",
+    "title": "Vegan Buddha Bowl",
+    "description": "Nourishing bowl with quinoa, veggies, and tahini dressing.",
+    "category": "Vegan",
+    "image": "https://picsum.photos/seed/buddhabowl/800/600",
+    "rating": 4.5,
+    "reviews": 130,
+    "timeMinutes": 35,
+    "difficulty": "Medium",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Quinoa", "quantity": "1 cup" },
+      { "name": "Chickpeas", "quantity": "1 cup" },
+      { "name": "Assorted vegetables", "quantity": "2 cups" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Cook quinoa and roast vegetables." },
+      { "step": 2, "text": "Assemble bowl with tahini dressing." }
+    ],
+    "tags": ["vegan", "healthy"],
+    "author": "Chef K",
+    "createdAt": "2023-10-25T09:00:00Z"
+  },
+  {
+    "id": "12",
+    "title": "Veggie Stir-Fry",
+    "description": "Quick stir-fry with colorful vegetables and soy sauce.",
+    "category": "Vegetarian",
+    "image": "https://picsum.photos/seed/stirfry/800/600",
+    "rating": 4.2,
+    "reviews": 82,
+    "timeMinutes": 20,
+    "difficulty": "Easy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Mixed vegetables", "quantity": "3 cups" },
+      { "name": "Soy sauce", "quantity": "2 tbsp" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Sauté vegetables over high heat; add sauce." }
+    ],
+    "tags": ["vegetarian", "quick"],
+    "author": "Chef L",
+    "createdAt": "2023-10-10T09:00:00Z"
+  },
+  {
+    "id": "13",
+    "title": "Berry Smoothie",
+    "description": "Blend of mixed berries, yogurt, and honey.",
+    "category": "Beverage",
+    "image": "https://picsum.photos/seed/berrysmoothie/800/600",
+    "rating": 4.3,
+    "reviews": 64,
+    "timeMinutes": 5,
+    "difficulty": "Easy",
+    "servings": 1,
+    "ingredients": [
+      { "name": "Mixed berries", "quantity": "1 cup" },
+      { "name": "Yogurt", "quantity": "1/2 cup" },
+      { "name": "Honey", "quantity": "1 tbsp" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Blend all ingredients until smooth." }
+    ],
+    "tags": ["drink", "breakfast"],
+    "author": "Chef M",
+    "createdAt": "2023-09-20T09:00:00Z"
+  },
+  {
+    "id": "14",
+    "title": "Margherita Pizza",
+    "description": "Classic pizza with fresh mozzarella and basil.",
+    "category": "Dinner",
+    "image": "https://picsum.photos/seed/margherita/800/600",
+    "rating": 4.6,
+    "reviews": 210,
+    "timeMinutes": 40,
+    "difficulty": "Medium",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Pizza dough", "quantity": "1" },
+      { "name": "Tomato sauce", "quantity": "1/2 cup" },
+      { "name": "Mozzarella", "quantity": "150 g" },
+      { "name": "Basil", "quantity": "handful" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Stretch dough, top with sauce and cheese." },
+      { "step": 2, "text": "Bake at high heat; add basil to finish." }
+    ],
+    "tags": ["baking", "italian"],
+    "author": "Chef N",
+    "createdAt": "2023-09-05T09:00:00Z"
+  },
+  {
+    "id": "15",
+    "title": "Greek Yogurt Chicken",
+    "description": "Tender chicken marinated in Greek yogurt and spices.",
+    "category": "Dinner",
+    "image": "https://picsum.photos/seed/greekchicken/800/600",
+    "rating": 4.4,
+    "reviews": 150,
+    "timeMinutes": 50,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": [
+      { "name": "Chicken thighs", "quantity": "1.5 lb" },
+      { "name": "Greek yogurt", "quantity": "1 cup" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Marinate chicken in yogurt and spices." },
+      { "step": 2, "text": "Bake or grill until cooked through." }
+    ],
+    "tags": ["protein", "mealprep"],
+    "author": "Chef O",
+    "createdAt": "2023-08-20T09:00:00Z"
+  },
+  {
+    "id": "16",
+    "title": "Caprese Salad",
+    "description": "Fresh tomatoes, mozzarella, and basil with balsamic glaze.",
+    "category": "Lunch",
+    "image": "https://picsum.photos/seed/caprese/800/600",
+    "rating": 4.2,
+    "reviews": 72,
+    "timeMinutes": 10,
+    "difficulty": "Easy",
+    "servings": 2,
+    "ingredients": [
+      { "name": "Tomatoes", "quantity": "2" },
+      { "name": "Fresh mozzarella", "quantity": "150 g" },
+      { "name": "Basil", "quantity": "handful" }
+    ],
+    "instructions": [
+      { "step": 1, "text": "Slice tomatoes and mozzarella; layer with basil." },
+      { "step": 2, "text": "Drizzle with olive oil and balsamic glaze." }
+    ],
+    "tags": ["salad", "italian"],
+    "author": "Chef P",
+    "createdAt": "2023-08-05T09:00:00Z"
+  }
+]
